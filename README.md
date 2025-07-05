@@ -1,5 +1,5 @@
 # LookingForTheBoy
-<i>Current version: 1.1.0</i>
+<i>Current version: 1.1.1</i>
 
 ## About Game
 This is a short, first, person, stealth, exploration game made with UE5 inspired by "Trumpets"(1). It was made with UE5.<br>
