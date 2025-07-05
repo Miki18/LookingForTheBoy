@@ -1,5 +1,5 @@
 # LookingForTheBoy
-<i>Current version: 1.0.0</i>
+<i>Current version: 1.1.0</i>
 
 ## About Game
 This is a short, first, person, stealth, exploration game made with UE5 inspired by "Trumpets"(1). It was made with UE5.<br>
@@ -47,8 +47,15 @@ Player's character has an array - type boolean. When player collects a key, an a
 <i>Some doors do not need keys or use other variables outside the array.</i><br>
 <br>
 **Monster**<br>
-<i>This feature is not implemented yet!</i>
-
+Monster is in "Inside" level. It walks randomly in area, but it can't enter to rooms.<br>
+When it sees player it starts following. Monster stops when:
+  * loses player (player enters to room or runs away)
+  * kills player<br>
+  
+When monster sees player and is close enough, player starts taking damage. Monster needs c.a. 5 seconds to kill player.<br>
+When player runs away, his health is restored immediately.<br>
+Monster makes step noises. It has a step sound placed in its animation.
+<br>
 ## Credits
 Game was made by Miki18.<br>
 Models are from Fab and my own.<br>
